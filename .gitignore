@@ -1,0 +1,12 @@
+# Sujet du cours (non diffusé)
+*.docx
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Outils locaux
+.claude/
+.DS_Store

@@ -1,0 +1,597 @@
+"pair_id","prompt_id","level","duel","model_name","size_class","total_params_b","active_params_b","energy_wh","co2e_g","output_tokens","comparia_vote","score_correctness","score_completeness","score_instruction","score_clarity","critical_error","notes","answer_text"
+"PAIR-01","P1","Easy","A","Gemma 4 31B","SLM","31","31","0.009","","75","tie","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Le PUE (Power Usage Effectiveness) est l'indicateur qui mesure l'efficacité énergétique d'un centre de données en rapportant la consommation électrique totale du site à la consommation électrique des seuls équipements informatiques ; sa valeur pour un centre parfaitement efficace est de 1,0."
+"PAIR-01","P1","Easy","A","DeepSeek V4 Pro","Large LLM","1600","49","1.307","","147","tie","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Le PUE (Power Usage Effectiveness) est le ratio entre l'énergie totale consommée par un centre de données et l'énergie utilisée uniquement par ses équipements informatiques, et sa valeur pour un centre parfaitement efficace est de 1,0."
+"PAIR-01","P1","Easy","B","Qwen 3.8 27B","SLM","27","27","0.021","","188","tie","4","2","2","2","0","","Le PUE (Power Usage Effectiveness) est le rapport entre la consommation électrique totale d'un centre de données et celle de ses équipements informatiques ; pour un centre de données parfaitement efficace, sa valeur est 1."
+"PAIR-01","P1","Easy","B","GPT OSS-120B","Small LLM","117","5.1","0.215","","629","tie","4","2","2","2","0","","Le PUE (Power Usage Effectiveness) d'un centre de données est le rapport entre l'énergie totale consommée par le site et l'énergie réellement utilisée par les équipements informatiques, et il vaut 1,0 pour un centre de données parfaitement efficace."
+"PAIR-01","P1","Easy","C","Mistral Small 4","Small LLM","119","6","0.029","","85","tie","4","2","2","2","0","","Le PUE (Power Usage Effectiveness) d'un centre de données mesure l'efficacité énergétique en divisant l'énergie totale consommée par le centre (incluant refroidissement, éclairage, etc.) par l'énergie consommée par les équipements IT, et sa valeur optimale pour un centre parfaitement efficace est 1,0."
+"PAIR-01","P1","Easy","C","GLM 5.3","Large LLM","744","40","0.401","","98","tie","4","2","2","2","0","","Le PUE (Power Usage Effectiveness) est un indicateur mesurant l'efficacité énergétique d'un centre de données, calculé en divisant l'énergie totale consommée par le centre par l'énergie dédiée à l'informatique proprement dite, et sa valeur est de 1,0 pour un centre de données parfaitement efficace (toute l'énergie servant uniquement l'équipement informatique)."
+"PAIR-01","P2","Easy","A","DeepSeek V4 Pro","Large LLM","1600","49","1.485","","167","tie","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","2,5 kWh = 2500 Wh = 9 000 000 J (ou 9×10⁶ J)."
+"PAIR-01","P2","Easy","A","Gemma 4 31B","SLM","31","31","0.002","","20","tie","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","2,5 kWh = 2 500 Wh = 9 000 000 Joules."
+"PAIR-01","P2","Easy","B","GPT OSS-120B","Small LLM","117","5.1","0.077","","224","tie","4","2","2","2","0","","2,5 kWh = 2 500 Wh = 9,0 × 10⁶ J."
+"PAIR-01","P2","Easy","B","Qwen 3.8 27B","SLM","27","27","0.016","","139","tie","4","2","2","2","0","","2,5 kWh = 2 500 Wh = 9 000 000 J (9 MJ)."
+"PAIR-01","P2","Easy","C","Mistral Small 4","Small LLM","119","6","0.006","","","loss","2","0","1","0","0","Réponse tronquée : joules absents (valeur absente, pas fausse)","2,5 kWh = 2 500 Wh ="
+"PAIR-01","P2","Easy","C","GLM 5.3","Large LLM","744","40","0.651","","","win","4","2","2","2","0","Modèle à raisonnement","2,5 kWh = 2 500 Wh = 9 × 10⁶ J (soit 9 000 000 joules ou 9 MJ)."
+"PAIR-01","P3","Medium","A","DeepSeek V4 Pro","Large LLM","1600","49","9.956","","1120","win","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Bonjour,
+Je fais suite à ma commande n°48213 du 3 pour la chaise de bureau bleue, reçue avec un accoudoir brisé. Je vous ai adressé des photos à deux reprises, sans réponse. Je souhaite un remboursement, non un échange. Ceci est mon troisième message. Merci de votre retour.
+Cordialement,
+Marc"
+"PAIR-01","P3","Medium","A","Gemma 4 31B","SLM","31","31","0.014","","117","loss","2","1","2","2","1","« du 3 courant » = date inventée ; « deux fois » perdu ; « intégral » ajouté | Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Madame, Monsieur,
+
+Je vous contacte pour la troisième fois concernant la commande n°48213 du 3 courant. La chaise de bureau bleue a été livrée avec l'accoudoir brisé. Malgré l'envoi répété de photos, je suis sans réponse de votre part.
+
+Je souhaite obtenir le remboursement intégral de cet article et non un remplacement.
+
+Dans l'attente de votre retour, je vous prie d'agréer mes salutations distinguées.
+
+Marc"
+"PAIR-01","P3","Medium","B","GPT OSS-120B","Small LLM","117","5.1","0.304","","889","tie","4","2","2","2","0","","Bonjour,
+
+Je vous contacte au sujet de ma commande n° 48213, passée le 3 pour une chaise de bureau bleue, qui est arrivée avec l'accoudoir cassé. J'ai déjà transmis deux fois les photographies du défaut, sans aucune réponse. Il s'agit de mon troisième message ; je souhaite donc être remboursé, et non recevoir un nouvel article. Dans l'attente d'une solution rapide, je vous remercie.
+
+Cordialement,
+Marc"
+"PAIR-01","P3","Medium","B","Qwen 3.8 27B","SLM","27","27","0.321","","2860","tie","4","2","2","2","0","Raisonnement long (2 860 tokens)","Bonjour,
+
+J'ai commandé le 3 la chaise de bureau bleue (commande 48213). Elle est arrivée cassée, l'accoudoir étant brisé. Je vous ai déjà envoyé des photos à deux reprises, mais je n'ai reçu aucune réponse. C'est la troisième fois que j'écris. Je souhaite être remboursé, et non recevoir une autre chaise.
+
+Je vous remercie.
+
+Cordialement,
+Marc"
+"PAIR-01","P3","Medium","C","Mistral Small 4","Small LLM","119","6","0.037","","108","loss","2","1","2","2","1","Fait inventé « deux photos » ; chaise de bureau bleue omise","Objet : Réclamation concernant la commande n°48213
+
+Bonjour,
+
+Je me permets de vous contacter concernant ma commande n°48213, passée le 3, livrée endommagée (accoudoir brisé). Malgré l'envoi de deux photos à deux reprises, je n'ai reçu aucune réponse. Je souhaite un remboursement, et non un nouvel envoi. Cette demande est déjà ma troisième. Cordialement,
+Marc."
+"PAIR-01","P3","Medium","C","GLM 5.3","Large LLM","744","40","15.046","","3674","win","4","2","2","2","0","Raisonnement très long (3 674 tokens)","Objet : Commande n° 48213 – demande de remboursement
+
+Madame, Monsieur,
+
+Le 3, j'ai commandé une chaise de bureau bleue (commande n° 48213), qui m'est parvenue endommagée : l'accoudoir est brisé. Je vous ai déjà transmis des photos à deux reprises, sans recevoir de réponse à ce jour.
+
+C'est la troisième fois que je vous écris. Je souhaite un remboursement, et non une chaise de remplacement.
+
+Je vous remercie par avance de traiter ma demande.
+
+Cordialement,
+Marc"
+"PAIR-01","P4","Medium","A","Gemma 4 31B","SLM","31","31","0.01","","82","loss","4","1","1","2","0","Balises ```json = texte hors JSON (−1 consignes) ; omissions | Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","```json
+{
+  ""customer_name"": ""Sofia Martin"",
+  ""order_number"": ""77-3104"",
+  ""product"": ""cafetière inox 12 tasses"",
+  ""problem"": ""verseuse en verre fêlée"",
+  ""requested_action"": ""envoi d'une verseuse de remplacement"",
+  ""previous_contacts"": 2
+}
+```"
+"PAIR-01","P4","Medium","A","DeepSeek V4 Pro","Large LLM","1600","49","4.436","","499","win","4","1","2","2","0","« à la livraison » et « pas de remboursement » omis ; vote pour le JSON brut | Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","{""customer_name"": ""Sofia Martin"", ""order_number"": ""77-3104"", ""product"": ""cafetière inox 12 tasses"", ""problem"": ""verseuse en verre fêlée"", ""requested_action"": ""envoyer une verseuse de remplacement"", ""previous_contacts"": 2}"
+"PAIR-01","P4","Medium","B","Qwen 3.8 27B","SLM","27","27","0.05","","447","tie","4","1","2","2","0","« à la livraison » et « pas de remboursement » omis","{""customer_name"":""Sofia Martin"",""order_number"":""77-3104"",""product"":""cafetière inox 12 tasses"",""problem"":""verseuse en verre fêlée"",""requested_action"":""envoyer une verseuse de remplacement"",""previous_contacts"":2}"
+"PAIR-01","P4","Medium","B","GPT OSS-120B","Small LLM","117","5.1","0.111","","325","tie","4","1","1","2","0","Balises ```json = texte hors JSON (−1 consignes) ; mêmes omissions","```json
+{
+  ""customer_name"": ""Sofia Martin"",
+  ""order_number"": ""77-3104"",
+  ""product"": ""cafetière inox 12 tasses"",
+  ""problem"": ""verseuse en verre fêlée"",
+  ""requested_action"": ""envoyer une verseuse de remplacement"",
+  ""previous_contacts"": 2
+}
+```"
+"PAIR-01","P4","Medium","C","Mistral Small 4","Small LLM","119","6","0.028","","81","win","4","1","1","2","0","Balises ```json = texte hors JSON (−1 consignes) ; « à la livraison » et « pas de remboursement » omis ; duel relancé après bug de sélection (Gemini 3.7 Flash tiré au lieu de Mistral Small 4)","```json
+{
+  ""customer_name"": ""Sofia Martin"",
+  ""order_number"": ""77-3104"",
+  ""product"": ""cafetière inox 12 tasses"",
+  ""problem"": ""verseuse en verre fêlée"",
+  ""requested_action"": ""envoyer une verseuse de remplacement"",
+  ""previous_contacts"": 2
+}
+```"
+"PAIR-01","P4","Medium","C","GLM 5.3","Large LLM","744","40","1.646","","402","loss","0","0","0","0","1","Réponse affichée tronquée = JSON invalide ; métriques identiques au duel bugué : possible bug d'affichage compar:IA","```json
+{
+  ""custome"
+"PAIR-01","P5","High","A","DeepSeek V4 Pro","Large LLM","1600","49","5.858","","659","win","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Étape 1 : Calcul du nombre de tokens d'entrée par jour
+Tokens d'entrée par conversation = 1 200 ; conversations par jour = 40 000
+Total tokens d'entrée par jour = 40 000 × 1 200 = 48 000 000 tokens
+
+Étape 2 : Calcul du nombre de tokens de sortie par jour
+Tokens de sortie par conversation = 350
+Total tokens de sortie par jour = 40 000 × 350 = 14 000 000 tokens
+
+Étape 3 : Conversion en millions de tokens
+- Entrée : 48 000 000 ÷ 1 000 000 = 48 millions de tokens
+- Sortie : 14 000 000 ÷ 1 000 000 = 14 millions de tokens
+
+Étape 4 : Coût quotidien
+- Coût entrée : 48 × 3 $ = 144 $
+- Coût sortie : 14 × 15 $ = 210 $
+- Coût total par jour : 144 + 210 = 354 $
+
+Étape 5 : Coût mensuel (30 jours)
+354 $ × 30 = 10 620 $
+
+Coût mensuel estimé : 10 620 $"
+"PAIR-01","P5","High","A","Gemma 4 31B","SLM","31","31","0.056","","481","loss","4","2","2","1","0","Formules LaTeX non affichées (code brut à l'écran) | Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Voici le détail du calcul étape par étape pour déterminer le coût mensuel de l'API.
+
+### 1. Calcul du volume quotidien de tokens
+* Tokens en entrée par jour : $40\,000 \text{ conversations} \times 1\,200 \text{ tokens} = 48\,000\,000 \text{ tokens/jour}$
+* Tokens en sortie par jour : $40\,000 \text{ conversations} \times 350 \text{ tokens} = 14\,000\,000 \text{ tokens/jour}$
+
+### 2. Calcul du coût quotidien
+Le prix est donné par million de tokens. On divise donc le volume quotidien par $1\,000\,000$ pour obtenir le nombre d'unités de facturation.
+* Coût quotidien des entrées : $(48\,000\,000 / 1\,000\,000) \times 3\text{ \$} = 48 \times 3\text{ \$} = 144\text{ \$}$
+* Coût quotidien des sorties : $(14\,000\,000 / 1\,000\,000) \times 15\text{ \$} = 14 \times 15\text{ \$} = 210\text{ \$}$
+* Coût total par jour : $144\text{ \$} + 210\text{ \$} = 354\text{ \$}$
+
+### 3. Calcul du coût mensuel (sur 30 jours)
+* Coût mensuel : $354\text{ \$} \times 30 \text{ jours} = 10\,620\text{ \$}$
+
+Résultat final : Le coût mensuel pour le fonctionnement du chatbot est de 10 620 $."
+"PAIR-01","P5","High","B","Qwen 3.8 27B","SLM","27","27","0.109","","975","tie","4","2","2","2","0","","Voici le calcul détaillé, étape par étape.
+
+## 1. Données de départ
+- Prix des tokens en entrée : 3 $ par million de tokens
+- Prix des tokens en sortie : 15 $ par million de tokens
+- Nombre de conversations par jour : 40 000
+- Tokens en entrée par conversation : 1 200
+- Tokens en sortie par conversation : 350
+- Nombre de jours dans le mois : 30 jours
+
+## 2. Tokens en entrée par jour
+\[ 40\,000 \times 1\,200 = 48\,000\,000 \]
+Il y a donc 48 millions de tokens en entrée par jour.
+
+## 3. Coût des tokens en entrée par jour
+\[ \frac{48\,000\,000}{1\,000\,000} = 48 \] \[ 48 \times 3 = 144 \]
+Le coût des tokens en entrée est donc de : 144 $ par jour
+
+## 4. Tokens en sortie par jour
+\[ 40\,000 \times 350 = 14\,000\,000 \]
+Il y a donc 14 millions de tokens en sortie par jour.
+
+## 5. Coût des tokens en sortie par jour
+\[ \frac{14\,000\,000}{1\,000\,000} = 14 \] \[ 14 \times 15 = 210 \]
+Le coût des tokens en sortie est donc de : 210 $ par jour
+
+## 6. Coût total par jour
+\[ 144 + 210 = 354 \]
+Le coût total par jour est donc de : 354 $
+
+## 7. Coût mensuel sur 30 jours
+\[ 354 \times 30 = 10\,620 \]
+Le coût mensuel est donc de : 10 620 $
+
+## Récapitulatif
+| Poste | Calcul | Coût |
+| Tokens en entrée par jour | 40 000 × 1 200 | 48 000 000 tokens |
+| Coût entrée par jour | 48 × 3 | 144 $ |
+| Tokens en sortie par jour | 40 000 × 350 | 14 000 000 tokens |
+| Coût sortie par jour | 14 × 15 | 210 $ |
+| Coût total par jour | 144 + 210 | 354 $ |
+| Coût mensuel sur 30 jours | 354 × 30 | 10 620 $ |
+
+Le coût mensuel estimé est donc de 10 620 $."
+"PAIR-01","P5","High","B","GPT OSS-120B","Small LLM","117","5.1","0.287","","839","tie","4","2","2","2","0","","### 1️⃣ Données de base
+| Élément | Valeur |
+| Conversations / jour | 40 000 |
+| Tokens d'entrée / conversation | 1 200 |
+| Tokens de sortie / conversation | 350 |
+| Tarif entrée | 3 $ / million de tokens |
+| Tarif sortie | 15 $ / million de tokens |
+| Jours / mois | 30 |
+
+### 2️⃣ Calcul du volume de tokens quotidien
+| Tokens d'entrée | 40 000 conv × 1 200 tok/conv | 48 000 000 tokens |
+| Tokens de sortie | 40 000 conv × 350 tok/conv | 14 000 000 tokens |
+- 48 M tokens d'entrée = 48 millions
+- 14 M tokens de sortie = 14 millions
+
+### 3️⃣ Calcul du coût quotidien
+| Entrée | 48 M | 3 $ | 48 × 3 = 144 $ |
+| Sortie | 14 M | 15 $ | 14 × 15 = 210 $ |
+| Total | — | — | 144 $ + 210 $ = 354 $ |
+
+### 4️⃣ Calcul du coût mensuel (30 jours)
+\[ \text{Coût mensuel} = 354 \$/\text{jour} \times 30 \text{ jours} = 10 620 \$ \]
+
+## Résultat final
+- Coût quotidien : 354 $
+- Coût mensuel (30 j) : 10 620 $
+
+### Récapitulatif en une phrase
+Avec 40 000 conversations par jour (1 200 tokens d'entrée et 350 tokens de sortie), l'API coûtera ≈ 354 $ par jour, soit ≈ 10 620 $ pour un mois de 30 jours."
+"PAIR-01","P5","High","C","Mistral Small 4","Small LLM","119","6","0.225","","650","tie","4","2","2","1","0","Calcul inutile (total de tokens mélangés)","Voici le calcul détaillé du coût mensuel de l'API pour le chatbot, étape par étape :
+
+### 1. Calcul des tokens par conversation
+- Entrée : 1 200 tokens
+- Sortie : 350 tokens
+- Total par conversation : 1 200 + 350 = 1 550 tokens
+
+### 2. Tokens traités par jour
+- Nombre de conversations par jour : 40 000
+- Tokens par jour (entrée + sortie) : \( 40\,000 \text{ conv.} \times 1\,550 \text{ tokens/conv.} = 62\,000\,000 \text{ tokens} \)
+Détail par type de token :
+- Entrée : \( 40\,000 \times 1\,200 = 48\,000\,000 \text{ tokens} \)
+- Sortie : \( 40\,000 \times 350 = 14\,000\,000 \text{ tokens} \)
+
+### 3. Coût journalier
+- Coût entrée : \( \frac{48\,000\,000 \text{ tokens}}{1\,000\,000} \times 3 \$ = 144 \$ \)
+- Coût sortie : \( \frac{14\,000\,000 \text{ tokens}}{1\,000\,000} \times 15 \$ = 210 \$ \)
+- Coût total par jour : \( 144 \$ + 210 \$ = 354 \$ \)
+
+### 4. Coût mensuel (30 jours)
+- Coût total : \( 354 \$/\text{jour} \times 30 \text{ jours} = 10\,620 \$ \)
+
+### Résumé des coûts
+| Poste | Montant (par jour) | Montant (par mois) |
+| Entrée | 144 $ | 4 320 $ |
+| Sortie | 210 $ | 6 300 $ |
+| Total | 354 $ | 10 620 $ |
+
+### Vérification rapide
+- Tokens mensuels : \( 62\,000\,000 \times 30 = 1\,860\,000\,000 \text{ tokens} \)
+- Coût théorique : 144 $ + 210 $ = 354 $/jour.
+Le résultat est cohérent."
+"PAIR-01","P5","High","C","GLM 5.3","Large LLM","744","40","1.294","","316","tie","4","2","2","2","0","","# Calcul du coût mensuel
+
+## Étape 1 : Tokens en entrée par jour
+- 40 000 conversations × 1 200 tokens = 48 000 000 tokens/jour (48 millions)
+
+## Étape 2 : Tokens en sortie par jour
+- 40 000 conversations × 350 tokens = 14 000 000 tokens/jour (14 millions)
+
+## Étape 3 : Coût quotidien en entrée
+- 48 M tokens × 3 $/M = 144 $/jour
+
+## Étape 4 : Coût quotidien en sortie
+- 14 M tokens × 15 $/M = 210 $/jour
+
+## Étape 5 : Coût quotidien total
+- 144 $ + 210 $ = 354 $/jour
+
+## Étape 6 : Coût mensuel (30 jours)
+- 354 $ × 30 = 10 620 $
+
+## Résultat
+Le coût mensuel est de 10 620 $, dont environ 59 % imputables aux tokens en sortie (6 300 $) et 41 % aux tokens en entrée (4 320 $)."
+"PAIR-01","P6","High","A","DeepSeek V4 Pro","Large LLM","1600","49","7.227","","813","tie","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","(1) Pour 1 000 requêtes, le coût de la cascade se compose :
+- du coût du petit modèle pour les 1 000 requêtes : 0,20 $
+- du coût du grand modèle pour 30 % des requêtes : 0,30 × 4,00 $ = 1,20 $
+Coût total = 0,20 $ + 1,20 $ = 1,40 $ pour 1 000 requêtes.
+
+(2) Si tout le trafic est envoyé au grand modèle, le coût est de 4,00 $ pour 1 000 requêtes.
+L'économie est donc : 4,00 $ – 1,40 $ = 2,60 $ pour 1 000 requêtes.
+
+(3) Notons \( x \) le taux d'escalade (en décimal).
+Coût de la cascade pour 1 000 requêtes : \( 0,20 + 4,00x \).
+Coût du grand modèle seul : 4,00 $.
+La cascade coûte plus cher si : \( 0,20 + 4,00x > 4,00 \) ; \( 4,00x > 3,80 \) ; \( x > 0,95 \)
+La cascade devient plus coûteuse au-delà d'un taux d'escalade de 95 %."
+"PAIR-01","P6","High","A","Gemma 4 31B","SLM","31","31","0.099","","843","tie","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Voici le détail du calcul étape par étape pour répondre à vos questions.
+
+### Données de base :
+* Coût Petit Modèle (PM) : $0,20\text{ \$} / 1\,000$ requêtes.
+* Coût Grand Modèle (GM) : $4,00\text{ \$} / 1\,000$ requêtes.
+* Taux d'escalade : $30\text{ \%}$ (soit $0,30$).
+
+### 1. Calcul du coût pour 1 000 requêtes de la cascade
+Dans une cascade, chaque requête passe d'abord par le petit modèle, puis une partie est transmise au grand modèle.
+* Coût du Petit Modèle : $$1\,000 \text{ requêtes} \times \frac{0,20\text{ \$}}{1\,000} = 0,20\text{ \$}$$
+* Coût du Grand Modèle : $$(1\,000 \times 0,30) \text{ requêtes} \times \frac{4,00\text{ \$}}{1\,000} = 300 \times 0,004\text{ \$} = 1,20\text{ \$}$$
+* Coût Total de la cascade : $$0,20\text{ \$} + 1,20\text{ \$} = \mathbf{1,40\text{ \$}}$$
+
+### 2. Calcul de l'économie par rapport au grand modèle seul
+* Coût GM seul : $1\,000 \text{ requêtes} \times \frac{4,00\text{ \$}}{1\,000} = 4,00\text{ \$}$
+* Économie : $4,00\text{ \$} - 1,40\text{ \$} = \mathbf{2,60\text{ \$}}$ (soit une réduction de $65\text{ \%}$).
+
+### 3. Seuil de rentabilité du taux d'escalade
+$$0,20 + (x \times 4,00) = 4,00$$ ; $$4,00x = 3,80$$ ; $$x = \frac{3,80}{4,00} = 0,95$$
+Conclusion : Au-delà d'un taux d'escalade de $95\text{ \%}$, la cascade coûte plus cher que l'utilisation du grand modèle seul. Cela s'explique par le fait que le coût cumulé du petit modèle et du grand modèle finit par dépasser le prix du grand modèle seul."
+"PAIR-01","P6","High","B","Qwen 3.8 27B","SLM","27","27","0.199","","1776","win","4","2","2","1","0","Conclusion en LaTeX non affichée (code brut à l'écran)","Voici le calcul détaillé.
+
+## Données
+- Petit modèle : 0,20 $ pour 1 000 requêtes
+- Grand modèle : 4,00 $ pour 1 000 requêtes
+- Taux d'escalade : 30 % des requêtes sont transmises au grand modèle
+
+## 1. Coût pour 1 000 requêtes de la cascade
+Dans la cascade, toutes les requêtes passent d'abord par le petit modèle, puis 30 % passent aussi par le grand modèle.
+Coût du petit modèle (1 000 requêtes) : \[ \text{Coût petit modèle} = 0{,}20 \text{ \$} \]
+Requêtes transmises : \[ 1000 \times 30\% = 300 \]
+\[ \text{Coût grand modèle} = 4{,}00 \times \frac{300}{1000} = 4{,}00 \times 0{,}30 = 1{,}20 \text{ \$} \]
+\[ \text{Coût cascade} = 0{,}20 + 1{,}20 = 1{,}40 \text{ \$} \]
+Réponse 1 : \[ \boxed{1{,}40 \text{ \$ pour 1 000 requêtes}} \]
+
+## 2. Économie par rapport à un envoi de tout le trafic au grand modèle
+Grand modèle seul : 4,00 $ ; cascade : 1,40 $.
+\[ 4{,}00 - 1{,}40 = 2{,}60 \text{ \$} \] ; \[ \frac{2{,}60}{4{,}00} = 0{,}65 = 65\% \]
+Réponse 2 : \[ \boxed{2{,}60 \text{ \$ d'économie pour 1 000 requêtes}} \] soit \[ \boxed{65\%} \]
+
+## 3. Taux d'escalade au-delà duquel la cascade coûte plus cher que le grand modèle seul
+Soit t le taux d'escalade. Le petit modèle traite toujours les 1 000 requêtes : 0,20 $ ; le grand modèle traite 1000t requêtes : 4,00 × t.
+\[ C_{\text{cascade}} = 0{,}20 + 4{,}00t \] ; \[ C_{\text{grand}} = 4{,}00 \]
+\[ 0{,}20 + 4{,}00t > 4{,}00 \Rightarrow 4{,}00t > 3{,}80 \Rightarrow t > 0{,}95 \] Donc : t > 95%
+Vérification : à 95 % : 0,20 + 3,80 = 4,00 (même prix) ; à 96 % : 0,20 + 3,84 = 4,04 (plus cher).
+Réponse 3 : \boxed{\text{La cascade coûte plus cher que le grand modèle seul au-delà de 95 % de taux d'escalade.}}
+À exactement 95 %, les deux solutions coûtent le même prix."
+"PAIR-01","P6","High","B","GPT OSS-120B","Small LLM","117","5.1","0.536","","1566","loss","3","2","2","2","0","Conclusion du (3) formulée à l'envers (trompeuse) ; vote pour A pour cette raison","### Données de base
+| Petit | 0,20 $ | Grand | 4,00 $ | (pour 1 000 requêtes)
+Dans la cascade : toutes les 1 000 requêtes sont d'abord traitées par le petit modèle ; 30 % (soit 0,30 × 1 000 = 300 requêtes) sont ensuite envoyées au grand modèle.
+
+## 1️⃣ Coût total de la cascade pour 1 000 requêtes
+1. Coût du petit modèle (toujours 1 000 requêtes) : C_petit = 0,20 $.
+2. Coût du grand modèle : 300/1 000 × 4,00 $ = 0,30 × 4,00 $ = 1,20 $.
+3. Coût total : C_cascade = 0,20 $ + 1,20 $ = 1,40 $.
+> Réponse 1 : 1 000 requêtes coûtent 1,40 $ avec la cascade.
+
+## 2️⃣ Économie par rapport à l'envoi de tout le trafic au grand modèle
+- Coût tout-grand : 4,00 $ (pour 1 000 requêtes).
+- Économie absolue : ΔC = 4,00 $ − 1,40 $ = 2,60 $.
+- Économie relative : 2,60 / 4,00 × 100 ≈ 65 %.
+> Réponse 2 : La cascade permet d'économiser 2,60 $ (soit ≈ 65 % du coût du grand modèle seul).
+
+## 3️⃣ À quel taux d'escalade la cascade devient-elle plus chère que le grand modèle seul ?
+Soit p le taux d'escalade. C_cascade(p) = 0,20 $ + 4,00 p.
+Point d'égalité : 0,20 + 4p = 4,00 ; 4p = 3,80 ; p = 0,95.
+- Si p < 0,95, la cascade reste moins chère que d'utiliser uniquement le grand modèle.
+- Si p > 0,95, la cascade devient plus chère.
+> Réponse 3 : La cascade ne devient plus économique que le grand modèle seul que lorsque le taux d'escalade dépasse 95 % des requêtes.
+
+### Récapitulatif chiffré
+| Cascade (30 % d'escalade) | 1,40 $ |
+| Grand modèle uniquement | 4,00 $ |
+| Économie avec cascade | 2,60 $ (≈ 65 %) |
+| Point d'infériorité économique | p = 95 % d'escalade (au-delà, la cascade coûte plus cher). |
+Ces calculs sont linéaires : ils s'appliquent de la même façon à tout autre volume de requêtes en proportion directe."
+"PAIR-01","P6","High","C","Mistral Small 4","Small LLM","119","6","0.355","","1024","loss","0","2","2","2","1","Piège : petit modèle compté sur 70 % → 1,34 $ ; (3) « aucun seuil »","Analysons le problème étape par étape.
+
+### Données :
+- Petit modèle : coût 0,20 $ pour 1 000 requêtes ; traite 70% des requêtes (car 30% sont transmises au grand modèle).
+- Grand modèle : coût 4,00 $ pour 1 000 requêtes ; traite 30% des requêtes.
+
+### (1) Coût pour 1 000 requêtes de la cascade
+1. Coût du petit modèle : 70% × 1 000 = 700 requêtes ; (0,20/1 000) × 700 = 0,14 $.
+2. Coût du grand modèle : 30% × 1 000 = 300 requêtes ; (4,00/1 000) × 300 = 1,20 $.
+3. Coût total de la cascade : 0,14 + 1,20 = 1,34 $.
+Réponse (1) : 1,34 $.
+
+### (2) Économie par rapport à un envoi de tout le trafic au grand modèle
+1. Coût si tout est traité par le grand modèle : 4,00 $.
+2. Économie : 4,00 − 1,34 = 2,66 $.
+Réponse (2) : 2,66 $.
+
+### (3) Taux d'escalade à partir duquel la cascade coûte plus cher
+Soit p le taux d'escalade. Coût total : 0,20(1 − p) + 4,00p.
+0,20(1 − p) + 4,00p > 4,00 ; 0,20 + 3,80p > 4,00 ; 3,80p > 3,80 ; p > 1.
+Interprétation : p ne peut pas dépasser 1. La cascade ne coûte jamais plus cher que le grand modèle seul pour 0 ≤ p ≤ 1 (à p = 1 le coût est égal).
+Réponse (3) : il n'existe aucun taux d'escalade p dans [0, 1] pour lequel la cascade coûte plus cher.
+
+### Résumé :
+1. 1,34 $. 2. 2,66 $. 3. Aucun (la cascade est toujours moins chère ou équivalente)."
+"PAIR-01","P6","High","C","GLM 5.3","Large LLM","744","40","1.904","","465","win","4","2","2","2","0","","## (1) Coût de la cascade pour 1 000 requêtes
+- Toutes les requêtes passent par le petit modèle : 0,20 $
+- 30 % sont escaladées vers le grand modèle : 1 000 × 0,30 = 300 requêtes ; coût : 300 × (4,00 $ / 1 000) = 1,20 $
+Coût total = 0,20 + 1,20 = 1,40 $ pour 1 000 requêtes
+
+## (2) Économie par rapport au grand modèle seul
+- Grand modèle seul : 1 000 × 0,004 $ = 4,00 $
+- Économie : 4,00 − 1,40 = 2,60 $ par 1 000 requêtes
+- Soit une réduction de : 2,60 / 4,00 = 65 %
+
+## (3) Seuil où la cascade devient plus chère
+Soit r le taux d'escalade : 0,20 + r × 4,00 > 4,00
+r × 4,00 > 3,80 ; r > 3,80 / 4,00 = 0,95
+La cascade coûte plus cher que le grand modèle seul si le taux d'escalade dépasse 95 %.
+(Vérification : à r = 95 %, coût = 0,20 + 0,95 × 4 = 4,00 $, exactement égal au grand modèle seul.)"
+"PAIR-01","P7","Hard","A","DeepSeek V4 Pro","Large LLM","1600","49","21.584","","2428","win","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Analyse de la mémoire nécessaire
+Le GPU dispose de 24 Gio de mémoire.
+
+1. Mémoire pour les poids du modèle
+- Nombre de paramètres : 7 × 10⁹ ; précision FP16 : 2 octets par paramètre
+- Taille des poids = 7×10⁹ ×2 = 14×10⁹ octets ≈ 14 000 000 000 / (1024³) ≈ 13,04 Gio
+
+2. Mémoire pour le cache KV
+- Taille par token et par couche (clés + valeurs en FP16) : éléments = 2 (K+V) ×8 têtes ×128 = 2048 éléments ; octets = 2048 ×2 = 4096 octets = 4 Kio
+- Cache KV par couche et par utilisateur : 8192 ×4096 = 33 554 432 octets = 32 Mio
+- 32 couches → 32 ×32 Mio = 1024 Mio = 1 Gio par utilisateur
+- 16 utilisateurs simultanés → 16 ×1 Gio = 16 Gio
+
+3. Mémoire totale
+Poids + cache KV = 13,04 Gio + 16 Gio ≈ 29,04 Gio. Même en négligeant les activations et les surcoûts du framework, ce total dépasse largement les 24 Gio disponibles.
+Conclusion : le modèle ne tient pas en mémoire.
+
+Proposition de deux changements indépendants
+Changement 1 : Quantification des poids en INT8 — poids 7×10⁹ octets ≈ 6,52 Gio ; cache KV inchangé 16 Gio ; nouveau total = 22,52 Gio (inférieur à 24 Gio)
+Changement 2 : Réduction de la longueur de contexte à 4096 tokens — cache KV 16 Mio par couche et par utilisateur ; 512 Mio par utilisateur ; 8 Gio pour 16 utilisateurs ; poids 13,04 Gio ; nouveau total = 21,04 Gio (inférieur à 24 Gio)"
+"PAIR-01","P7","Hard","A","Gemma 4 31B","SLM","31","31","0.116","","992","loss","2","2","2","1","0","Poids 14 Gio ; option B « ça tient » à 24/24 ; titre INT8 mais calcul INT4 | Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Voici l'analyse détaillée de la consommation mémoire pour ce scénario.
+
+### 1. Calcul de la mémoire pour les poids du modèle
+$$\text{Mémoire Poids} = 7 \times 10^9 \text{ paramètres} \times 2 \text{ octets} = 14 \times 10^9 \text{ octets}$$
+$$\text{Mémoire Poids} \approx \mathbf{14 \text{ Gio}}$$
+
+### 2. Calcul de la mémoire pour le cache KV (KV Cache)
+$$\text{Mémoire KV} = 2 \times 32 \times 8 \times 128 \times 8\,192 \times 2 \text{ octets} = 1\,073\,741\,824 \text{ octets} \approx 1 \text{ Gio par utilisateur}$$
+Pour 16 utilisateurs simultanés : $$16 \times 1 \text{ Gio} = \mathbf{16 \text{ Gio}}$$
+
+### 3. Bilan Total
+$$14 \text{ Gio} + 16 \text{ Gio} = \mathbf{30 \text{ Gio}}$$
+Verdict : Non, cela ne tient pas. Le besoin total (30 Gio) dépasse la capacité du GPU (24 Gio). Il manque 6 Gio, sans même compter la mémoire nécessaire pour le système d'exploitation et les activations temporaires.
+
+### 4. Propositions de changements (indépendants)
+#### Option A : Quantification des poids en INT8 (ou 4-bit)
+On passe les poids du modèle de FP16 (2 octets) à INT4 (0,5 octet par paramètre). Le cache KV reste en FP16.
+- Nouveaux Poids : $7 \times 10^9 \times 0,5 \text{ octet} \approx 3,5 \text{ Gio}$ ; KV Cache : $16 \text{ Gio}$ ; Total : $\mathbf{19,5 \text{ Gio}}$ → ✅ Ça tient.
+
+#### Option B : Réduction de la fenêtre de contexte
+Pour tenir dans 24 Gio, nous avons $24 - 14 = 10 \text{ Gio}$ disponibles pour le cache KV.
+- Mémoire disponible par utilisateur : $10 / 16 = 0,625 \text{ Gio}$
+- Nombre de tokens max : $0,625 \times 10^9 / (2 \times 32 \times 8 \times 128 \times 2) \approx 5\,120 \text{ tokens}$
+- Nouveaux Poids : 14 Gio ; Nouveau KV Cache : 10 Gio ; Total : $\mathbf{24 \text{ Gio}}$
+- Résultat : ✅ Ça tient (limite maximale), avec un contexte réduit à 5 120 tokens."
+"PAIR-01","P7","Hard","B","GPT OSS-120B","Small LLM","117","5.1","0.612","","1788","loss","2","2","2","2","0","Poids 14 GiB au lieu de 13,0 ; INT8 à 23,5/24 présenté comme « confortable »","### 1. Mémoire requise avec les paramètres fournis
+| Poids du modèle | 7 000 000 000 paramètres × 2 bytes (FP16) | ≈ 14 GiB |
+| Cache KV (par token) | 32 couches × 8 têtes × 2 (key + value) × 128 dim × 2 bytes | 128 KiB / token |
+| Cache KV (par utilisateur) | 8 192 tokens × 128 KiB = 1 GiB | 1 GiB |
+| Cache KV (16 utilisateurs) | 16 × 1 GiB = 16 GiB | 16 GiB |
+| Total | 14 GiB (poids) + 16 GiB (KV) | ≈ 30 GiB |
+Le GPU ne dispose que de 24 GiB → ça ne tient pas.
+
+## 2. Propositions de changements (indépendants)
+### Changement A – Quantisation des poids en 8 bits
+Poids : 7 B × 1 byte (int8) ≈ 7 GiB (on ajoute ≈ 0.5 GiB d'overhead de scale-factors) → ≈ 7.5 GiB ; cache KV inchangé → 16 GiB ; total 7.5 + 16 = 23.5 GiB.
+Avantage : le modèle reste complet, aucune perte de contexte. Coût : petite perte de précision (souvent négligeable avec GPTQ / AWQ) et besoin d'une bibliothèque d'inférence qui supporte l'int8 (ex. : bitsandbytes, vLLM).
+
+### Changement B – Réduction de la longueur de contexte à 4 096 tokens
+Poids inchangés → 14 GiB ; cache KV par utilisateur 4 096 × 128 KiB = 0.5 GiB ; 16 utilisateurs → 8 GiB ; total 14 + 8 = 22 GiB.
+Avantage : aucune modification du modèle, aucune perte de précision. Coût : le contexte maximal visible par chaque utilisateur est divisé par deux.
+
+## 3. Résumé
+| Original | 14 GiB | 16 GiB | 30 GiB | ❌ |
+| A – 8-bit | ~7.5 GiB | 16 GiB | 23.5 GiB | ✅ |
+| B – 4 k tokens | 14 GiB | 8 GiB | 22 GiB | ✅ |
+Ainsi, soit en quantisant les poids en 8 bits, soit en réduisant la longueur de contexte à 4 096 tokens, on rentre confortablement sous la limite de 24 GiB du GPU."
+"PAIR-01","P7","Hard","B","Qwen 3.8 27B","SLM","27","27","1.224","","10906","win","4","1","2","2","0","Deux corrections relevant de la même option de la clé (8 utilisateurs / 4 096 tokens) ; raisonnement très long","Non, cela ne tient pas — même si l'on ne compte que les poids et le cache KV, en négligeant les activations et l'overhead CUDA.
+
+Je suppose : FP16 pour les poids et pour le cache KV (2 octets par élément) ; 8 têtes clé-valeur par couche ; 8192 tokens de contexte maximum par utilisateur ; on ignore la mémoire des activations, buffers temporaires, fragmentation, etc.
+
+## 1. Mémoire pour les poids
+\[ 7 \times 10^9 \text{ paramètres} \times 2 \text{ octets/paramètre} = 14 \times 10^9 \text{ octets} \]
+Poids = 14 Go ≈ 13.04 GiB
+
+## 2. Mémoire pour le cache KV
+\[ \text{KV par token} = 2 \times L \times H_{kv} \times d_{head} \times \text{taille élément} \]
+2 × 32 × 8 × 128 × 2 = 131072 octets = 128 KiB par token
+Pour un utilisateur avec 8192 tokens : 8192 × 128 KiB = 1 GiB
+Pour 16 utilisateurs : 16 × 1 GiB = 16 GiB (= 17.18 Go)
+
+## 3. Total mémoire poids + cache KV
+13.04 GiB + 16 GiB = 29.04 GiB (14 Go + 17.18 Go = 31.18 Go)
+Le GPU a 24 Gio : si 24 Go → 31.18 > 24 ; si 24 GiB → 29.04 > 24. Donc cela ne tient pas.
+
+# Deux changements indépendants pour faire tenir
+## Changement 1 : réduire le nombre d'utilisateurs simultanés de 16 à 8
+Cache KV : 8 × 1 GiB = 8 GiB (8.59 Go). Nouveau total : 13.04 + 8 = 21.04 GiB (22.59 Go). Cela tient sous 24 Go/GiB, mais avec une marge limitée si l'on compte les activations et l'overhead.
+
+## Changement 2 : réduire la longueur de contexte de 8192 à 4096 tokens
+Cache KV par utilisateur : 0.5 GiB ; 16 utilisateurs : 8 GiB (8.59 Go). Nouveau total : 21.04 GiB (22.59 Go). Cela tient sous 24 Go/GiB, là encore avec une marge raisonnable mais pas très large.
+
+## Résumé
+| Initial : 16 utilisateurs × 8192 tokens | 14 Go / 13.04 GiB | 17.18 Go / 16 GiB | 31.18 Go / 29.04 GiB |
+| 8 utilisateurs × 8192 tokens | 14 Go / 13.04 GiB | 8.59 Go / 8 GiB | 22.59 Go / 21.04 GiB |
+| 16 utilisateurs × 4096 tokens | 14 Go / 13.04 GiB | 8.59 Go / 8 GiB | 22.59 Go / 21.04 GiB |
+Conclusion : avec 16 utilisateurs et 8192 tokens, la configuration initiale ne tient pas. Réduire soit le nombre d'utilisateurs à 8, soit la longueur de contexte à 4096 tokens permet de faire tenir le poids + cache KV sous 24 Go/GiB."
+"PAIR-01","P7","Hard","C","Mistral Small 4","Small LLM","119","6","0.293","","844","loss","0","2","2","2","1","Facteur K+V oublié → conclut « ça tient » (22 Gio)","Pour estimer si le modèle peut tenir en mémoire, nous allons calculer séparément la mémoire nécessaire pour les poids du modèle et pour le cache KV des 16 utilisateurs simultanés.
+
+### 1. Mémoire nécessaire pour les poids du modèle (FP16)
+Mémoire des poids = 7e9 * 2 octets = 14e9 octets = 14 Gio.
+
+### 2. Mémoire nécessaire pour le cache KV
+Têtes KV = 8 ; dimension de tête = 128 ; contexte = 8 192 tokens ; couches = 32.
+Clés (K) et Valeurs (V) sont stockées séparément.
+Taille par token = 128 * 2 (FP16) = 256 octets.
+Taille par tête par couche = 8 192 * 256 = 2 097 152 octets (2 Mio).
+Taille par couche = 8 * 2 097 152 = 16 777 216 octets (16 Mio).
+Taille totale du cache KV = 32 * 16 777 216 = 536 870 912 octets (512 Mio).
+Cache KV pour 16 utilisateurs = 16 * 512 Mio = 8 Gio.
+
+### 3. Mémoire totale requise
+Poids 14 Gio + cache KV 8 Gio = 22 Gio. Le GPU a 24 Gio de mémoire, donc le modèle tient en mémoire avec une marge de 2 Gio.
+
+### Si le modèle ne tenait pas en mémoire :
+Changement 1 : réduire le contexte à 4 096 tokens : cache KV = 16 * (512 Mio / 2) = 4 Gio ; total = 14 + 4 = 18 Gio.
+Changement 2 : FP8 au lieu de FP16 pour le cache KV : cache KV = 8 Gio / 2 = 4 Gio ; total = 18 Gio.
+
+### Résumé :
+Mémoire initiale totale : 22 Gio (tient dans 24 Gio). Si modification nécessaire : contexte réduit → 18 Gio ; cache KV en FP8 → 18 Gio."
+"PAIR-01","P7","Hard","C","GLM 5.3","Large LLM","744","40","2.977","","727","win","3","2","2","2","0","Confusion Go/Gio (poids 14 au lieu de 13,0)","## Calcul des poids
+- 7 milliards de paramètres en FP16 (2 octets) : 7 × 2 = 14 Gio
+
+## Calcul du cache KV
+Par token, par couche : K et V (2 tenseurs) ; 8 têtes × 128 dimensions = 1024 éléments ; FP16 : 2 octets
+→ 2 × 1024 × 2 = 4 Kio / token / couche
+Sur 32 couches : 4 Kio × 32 = 128 Kio / token / utilisateur
+Par utilisateur (8 192 tokens) : 128 Kio × 8192 = 1 Gio
+Pour 16 utilisateurs : 16 Gio
+
+## Total
+| Poids FP16 | 14 Gio |
+| Cache KV | 16 Gio |
+| Total | 30 Gio |
+À cela s'ajoutent les activations, les buffers CUDA et l'overhead runtime (~1–2 Gio). Cela ne tient pas dans 24 Gio (déficit d'au moins 6 Gio, plutôt 7–8 avec l'overhead).
+
+## Deux changements indépendants
+Option 1 — Quantifier les poids en INT8 (2 octets → 1 octet) : poids 7 Gio, cache KV 16 Gio ; total ≈ 23 Gio → ça passe, mais de justesse (l'INT4 donnerait 3,5 + 16 = 19,5 Gio, plus confortable).
+Option 2 — Réduire la charge du cache KV de moitié (par exemple 8 utilisateurs au lieu de 16, ou contexte de 4 096 tokens) : poids 14 Gio, cache KV 8 Gio ; total ≈ 22 Gio → ça passe.
+Alternativement, quantifier le cache KV en FP8 (16 → 8 Gio) donne le même résultat que l'option 2 sans sacrifier utilisateurs ni contexte. Combiner deux options (ex. INT8 + FP8 KV) donnerait ~15 Gio, avec une marge confortable pour les activations."
+"PAIR-01","P8","Hard","A","Gemma 4 31B","SLM","31","31","0.045","","381","loss","4","1","2","2","0","Un seul groupe d'usagers à risque identifié | Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Voici ma recommandation pour cette transition technologique :
+
+Preuves exigées avant bascule
+Je conditionne le déploiement à un benchmark comparatif rigoureux (blind test) : un panel d'experts doit évaluer les réponses du modèle 3B quantifié face au modèle propriétaire sur un jeu de données de 500 questions types. Je demande des preuves de stabilité linguistique, particulièrement pour le wolof et l'arabe, afin de vérifier que la quantification 4-bits n'a pas dégradé la syntaxe ou le sens (hallucinations).
+
+Analyse des risques
+Le risque majeur est l'erreur médicale ou directionnelle : un patient pourrait être mal orienté lors d'une urgence vitale.
+* Utilisateurs vulnérables : Les patients non francophones ou en situation de stress, dont la compréhension dépendra de la précision linguistique du modèle.
+* Risque technique : La quantification peut induire des ""oublis"" ou des réponses incohérentes sur des procédures administratives strictes.
+
+Garanties à mettre en place
+1. RAG (Retrieval Augmented Generation) : Le modèle ne doit pas répondre de mémoire, mais extraire les informations d'une base de connaissances hospitalière certifiée.
+2. Guardrails : Implémenter un filtre de sécurité qui redirige systématiquement vers le 15 ou les urgences dès détection de mots-clés critiques.
+3. Humain dans la boucle : Audit hebdomadaire des logs pour corriger les dérives."
+"PAIR-01","P8","Hard","A","DeepSeek V4 Pro","Large LLM","1600","49","7.85","","883","win","4","2","2","2","0","Duel A : Mistral 3 Large remplacé par DeepSeek V4 Pro (Mistral 3 Large substitué aléatoirement par la plateforme).","Avant toute bascule, j'exigerais des preuves chiffrées de performance sur un échantillon représentatif de requêtes réelles dans les trois langues, avec une attention particulière au wolof, langue peu dotée. Il faudrait comparer le modèle ouvert quantifié 3B au modèle propriétaire sur la précision des réponses, la détection des urgences, le respect des protocoles administratifs et la qualité linguistique (évaluation humaine par des locuteurs natifs). Des tests de robustesse (questions mal orthographiées, formulations ambiguës) et de sécurité (tentatives de jailbreak, sollicitations à risque) sont indispensables.
+
+Les risques pèsent d'abord sur les patients ne parlant que le wolof ou l'arabe dialectal : un petit modèle quantifié peut produire des traductions erronées ou des conseils inappropriés, surtout face à des symptômes urgents. Les personnes âgées ou peu habituées au numérique pourraient être induites en erreur. Un retard de prise en charge dû à une mésorientation constitue le danger le plus grave.
+
+Pour garantir la sécurité, je mettrais en place : un filtrage strict en amont avec remontée immédiate vers un humain pour toute mention de signe d'alerte ; un fine-tuning sur des données hospitalières validées et des scénarios d'urgence ; une évaluation continue en production avec boucle de feedback soignant ; des messages explicites sur les limites de l'assistant ; et une version locale garantissant la confidentialité des données. Enfin, une phase pilote en doublon avec le système actuel, avec révision clinique avant décision définitive."
+"PAIR-01","P8","Hard","B","GPT OSS-120B","Small LLM","117","5.1","0.247","","723","loss","3","2","1","2","0","« 3 M params » au lieu de 3 milliards ; ~290 mots","Recommandation pour le passage à un LLM ouvert 3 M params (4 bits)
+
+1. Preuves exigées
+- Évaluation de performance multilingue : tests comparatifs (BLEU, Exact Match, F1) sur un jeu de 5 000 questions réelles en français, arabe et wolof, incluant des scénarios critiques (urgences, consentement). Le modèle doit atteindre ≥ 90 % du score du modèle propriétaire sur les réponses factuelles et ≥ 80 % sur la pertinence globale.
+- Audit de biais : analyses quantitatives (disparités de taux d'erreur < 5 % entre langues et groupes socioculturels) et qualitatives (revue d'un panel de 10 experts santé francophones, arabophones, wolofophones).
+- Robustesse et sécurité : tests d'injection de prompts malveillants, de désinformation et de données sensibles. Le taux de génération d'informations erronées ou de divulgation de PII doit rester < 0,1 %.
+- Conformité juridique : certification RGPD et respect de la loi française sur la santé (HDS/ISO 27001).
+
+2. Risques par utilisateurs
+- Patients : réponses inexactes pouvant retarder une prise en charge d'urgence → danger clinique.
+- Personnel administratif : dépendance à des réponses erronées pour la planification, entraînant sur-ou-sous-allocation des créneaux.
+- Communautés linguistiques minoritaires : risque de mauvaise interprétation en wolof/arabic, accentuant les inégalités d'accès à l'information.
+
+3. Garanties à mettre en place
+- Mécanisme de supervision humaine : validation obligatoire des réponses aux requêtes classées « urgences » ou « données critiques ».
+- Système de fallback : redirection automatique vers un opérateur humain dès un score de confiance < 0,7 ou en cas de doute linguistique.
+- Monitoring continu : tableau de bord en temps réel des taux d'erreur, alertes automatisées et audit mensuel par un comité d'éthique.
+- Plan de continuité : conservation du modèle propriétaire en mode secours pendant 6 mois, avec bascule immédiate en cas de défaillance du nouveau système.
+
+Ces exigences assurent que la réduction de coûts ne compromet ni la sécurité des patients ni l'équité d'accès aux services."
+"PAIR-01","P8","Hard","B","Qwen 3.8 27B","SLM","27","27","0.402","","3580","win","4","2","2","2","0","","Je recommande une bascule conditionnelle, après preuve de fiabilité et sécurité. Avant production, exiger : (1) une évaluation sur questions réelles anonymisées en français, arabe et wolof, incluant dialectes, orthographes variables et patients peu alphabétisés, avec indicateurs de précision, taux de refus, hallucinations, escalade vers un humain et équité linguistique ; (2) des tests adverses (tentatives de prompt injection, demandes de diagnostic, conseils dangereux, données sensibles) ; (3) un benchmark de latence, disponibilité, coût et capacité ; (4) une validation juridique (RGPD, hébergement local, journalisation, conservation) et médicale (conformité, non-diagnostic). Les preuves doivent inclure des scénarios de rendez-vous, admission et urgences, avec comparaison au modèle actuel. La réduction de 80 % doit être confirmée par une mesure de coût total, y compris maintenance et supervision, et un seuil d'acceptation formel. Les risques principaux pèsent sur les patients vulnérables, non francophones ou en situation d'urgence : mauvaise information, retard de soins, discrimination linguistique, fuite de données. Garanties : RAG sur documents hospitaliers à jour, messages d'urgence (15/112), interdiction de diagnostic, passage automatique à un agent humain en cas d'incertitude, supervision échantillonnée, alertes de dégradation, versioning et plan de retour au modèle propriétaire, formation du personnel."
+"PAIR-01","P8","Hard","C","Mistral Small 4","Small LLM","119","6","0.208","","600","loss","2","2","1","2","0","Urgences non traitées comme critiques (pilote proposé à l'accueil des urgences) ; ~290 mots","Recommandation pour le remplacement du modèle propriétaire par un modèle ouvert quantifié en 4 bits
+
+Preuves à exiger avant bascule :
+1. Évaluation technique : Benchmarks comparatifs (ex : MMLU, HellaSwag) démontrant une performance ≥85% du modèle propriétaire sur les tâches du FAQ (urgences, admissions) en français, arabe et wolof. Inclure des tests sur des jeux de données internes (ex : questions fréquentes des patients).
+2. Sécurité et éthique : Audit du modèle pour détecter des biais linguistiques ou culturels, et vérification de sa conformité au RGPD (anonymisation des données médicales).
+3. Coûts réels : Simulation de déploiement à l'échelle (latence, consommation GPU/CPU) et calcul du ROI sur 3 ans (objectif : réduction ≥80%).
+4. Support communautaire : Preuves de maintenance active (ex : commits GitHub, documentation en français) et engagement d'un consortium (ex : Inria, CNRST) pour les mises à jour.
+
+Risques et utilisateurs impactés :
+- Patients : Risque de réponses incorrectes ou incompréhensibles (surtout en wolof) → impact sur la santé.
+- Équipe IT : Charge de maintenance accrue (modèle ouvert moins documenté qu'un propriétaire).
+- Direction : Non-respect des délais de bascule ou dépassement budgétaire (coûts cachés de quantification, inférence).
+
+Garanties à mettre en place :
+1. Phase pilote : Déploiement progressif sur un service (ex : accueil des urgences) avec monitoring en temps réel (outils comme Prometheus).
+2. Redondance : Maintenir une version propriétaire en backup pendant 6 mois.
+3. Formation : Ateliers pour les agents (ex : prompts engineering) et création d'un guide d'utilisation multilingue.
+4. Contrat de service : Engagement écrit du fournisseur du modèle ouvert (ex : Mistral AI) pour les corrections et mises à jour.
+5. Recours : Désignation d'un data steward dédié pour gérer les incidents (ex : réponses erronées en arabe).
+
+Conclusion : La bascule est viable si les preuves techniques, éthiques et opérationnelles sont solides, avec un plan de contingence strict. Priorité absolue à la fiabilité des réponses médicales."
+"PAIR-01","P8","Hard","C","GLM 5.3","Large LLM","744","40","5.32","","1299","win","4","2","2","2","0","","Preuves à exiger avant la bascule
+Évaluation comparative (ancien vs nouveau modèle) sur un jeu de test d'au moins 500 questions réelles, validé par des soignants et couvrant les trois langues et les trois domaines. Mesurer : exactitude factuelle, taux d'hallucination, rappel de détection des urgences (objectif ≥ 99 %, zéro faux négatif toléré sur un échantillon critique), latence, disponibilité. Tester spécifiquement le wolof : les modèles de 3 Md quantifiés en 4 bits s'effondrent souvent sur les langues peu dotées — c'est le point de failure le plus probable. Conduire un red teaming sur des symptômes d'urgence formulés de façon ambigüe ou dialectale.
+
+Risques, par utilisateur
+- Patients wolophones et arabophones : dégradation linguistique créant une inégalité d'accès à l'information.
+- Patients en situation d'urgence : un triage erroné peut avoir des conséquences cliniques et engager la responsabilité de l'hôpital.
+- Personnel d'accueil : surcharge si l'assistant échoue et renvoie tout le monde vers l'humain.
+
+Garanties à mettre en place
+RAG ancré exclusivement sur des FAQ validées ; détection de mots-clés d'urgence renvoyant systématiquement vers le 15/112 avec bannière d'avertissement ; bouton d'échappatoire humaine ; mention « assistant automatisé » ; journalisation et audit mensuel par langue ; conformité RGPD et hébergement souverain ; plan de rollback immédiat vers le modèle propriétaire conservé en secours."

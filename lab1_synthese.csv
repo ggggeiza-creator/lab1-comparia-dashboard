@@ -1,0 +1,13 @@
+﻿niveau;classe;n_reponses;note_moyenne;erreurs_critiques;energie_moy_wh;suffisant_seuil_7;plus_petite_classe_suffisante_seuil_7;economie_vs_xl;suffisant_seuil_6;plus_petite_classe_suffisante_seuil_6;suffisant_seuil_8;plus_petite_classe_suffisante_seuil_8
+Facile;S;4;10,0;0;0,012;oui;S;0,9875;oui;S;oui;S
+Facile;L;4;8,25;0;0,0818;oui;S;0,9149;oui;S;oui;S
+Facile;XL;4;10,0;0;0,961;oui;S;0,0;oui;S;oui;S
+Moyen;S;4;7,75;1;0,0988;non;aucune;0,9873;non;aucune;non;aucune
+Moyen;L;4;7,5;1;0,12;non;aucune;0,9846;non;aucune;non;aucune
+Moyen;XL;4;7,25;1;7,771;non;aucune;0,0;non;aucune;non;aucune
+Élevé;S;4;9,5;0;0,1158;oui;S;0,9716;oui;S;oui;S
+Élevé;L;4;8,0;1;0,3508;non;S;0,9138;non;S;non;S
+Élevé;XL;4;10,0;0;4,0708;oui;S;0,0;oui;S;oui;S
+Difficile;S;4;8,75;0;0,4468;oui;S;0,9526;oui;S;oui;S
+Difficile;L;4;6,75;1;0,34;non;S;0,964;non;S;non;S
+Difficile;XL;4;9,75;0;9,4328;oui;S;0,0;oui;S;oui;S
