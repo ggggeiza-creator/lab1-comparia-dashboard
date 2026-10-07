@@ -1,0 +1,3 @@
+[theme]
+# Couleur des contrôles (cases, curseur, étiquettes de sélection) : vert au lieu du rouge par défaut
+primaryColor = "#1baf7a"

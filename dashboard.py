@@ -310,16 +310,13 @@ def main():
             if sb.checkbox(f"{m} ({ROSTER_DETAIL.get(m, '')})", value=True, key=f"m_{m}"):
                 selected.append(m)
 
-    sb.header("Filtres")
-    levels = sb.multiselect("Niveaux", LEVELS, default=LEVELS, format_func=LEVEL_FR.get)
-    prompts = sb.multiselect("Prompts", PROMPTS, default=PROMPTS)
+    sb.header("Réglages")
     threshold = sb.slider("Seuil de qualité (/10)", 0.0, 10.0, 7.0, 0.5)
     x_mode = sb.radio("Axe X", list(X_AXES), format_func=X_AXES.get)
 
-    df = raw[raw["model_name"].isin(selected) & raw["level"].isin(levels)
-             & raw["prompt_id"].isin(prompts)]
+    df = raw[raw["model_name"].isin(selected)]
     if df.empty:
-        st.warning("Aucune ligne ne correspond aux filtres.")
+        st.warning("Aucun modèle sélectionné.")
         st.stop()
 
     with st.container(border=True):
@@ -327,10 +324,7 @@ def main():
             "**Écarts au cahier des charges**\n"
             "- Aucun modèle ≤ 4B disponible sur compar:IA : classes redéfinies "
             "**S 15-60B**, **L 100-400B**, **XL > 400B** (paramètres totaux).\n"
-            "- **Mistral 3 Large** remplacé par **DeepSeek V4 Pro** (substitué aléatoirement par la plateforme).\n"
-            "- Règle stricte appliquée sur **P4** : balises `` ```json `` = texte hors JSON, −1 point de consignes.\n"
-            "- Tableau de bord Streamlit à la place de `lab1_dashboard.html` (non fourni).\n"
-            "- `lab1_log.csv` conforme à l'annexe A ; colonnes supplémentaires dans `lab1_log_complet.csv`.")
+            "- **Mistral 3 Large** remplacé par **DeepSeek V4 Pro** (substitué aléatoirement par la plateforme).")
 
     n_src = raw["source_file"].nunique()
     st.caption(f"{len(df)} réponses affichées sur {len(raw)} chargées · {n_src} fichier(s) · "
@@ -516,9 +510,24 @@ def main():
                        "Cadre orange = plus petite classe suffisante du niveau.")
 
             for lvl in present_levels:
-                if smallest.get(lvl) is None:
-                    st.error(f"Niveau {LEVEL_FR[lvl]} : aucune classe ne passe le seuil de "
-                             f"{fmt(threshold, 1)}/10 sans erreur critique.")
+                if smallest.get(lvl) is not None:
+                    continue
+                rows_l = lc[lc["level"] == lvl]
+                with_ec = [f"{r.classe} ({r.erreurs_critiques} EC)" for r in rows_l.itertuples()
+                           if r.erreurs_critiques > 0]
+                below = [f"{r.classe} ({fmt(r.note_moyenne)}/10)" for r in rows_l.itertuples()
+                         if r.erreurs_critiques == 0 and r.note_moyenne < threshold - 1e-9]
+                if not below:
+                    reason = ("toutes les classes ont au moins une erreur critique : "
+                              f"{', '.join(with_ec)}. Baisser le seuil n'y change rien, "
+                              "car la règle exige zéro erreur critique.")
+                else:
+                    parts = []
+                    if with_ec:
+                        parts.append(f"erreur critique pour {', '.join(with_ec)}")
+                    parts.append(f"note sous le seuil de {fmt(threshold, 1)}/10 pour {', '.join(below)}")
+                    reason = " ; ".join(parts) + "."
+                st.error(f"Niveau {LEVEL_FR[lvl]} : aucune classe suffisante. Cause : {reason}")
 
             st.subheader("Plus petite classe suffisante et économie d'énergie vs XL")
             rows = []
@@ -668,7 +677,7 @@ def main():
 
     # ---------------- 8. Contrôles du CDC ----------------
     with tabs[7]:
-        st.caption("Contrôles sur les données chargées, hors filtres.")
+        st.caption("Contrôles sur toutes les données chargées, y compris les modèles décochés.")
         ch = run_checks(raw)
         ch["OK"] = ch["OK"].map(lambda b: "✅" if b else "❌")
         st.dataframe(ch, hide_index=True, width="stretch")
@@ -684,13 +693,14 @@ def main():
         st.download_button("Télécharger le CSV de synthèse",
                            summary.to_csv(index=False, sep=";", decimal=",").encode("utf-8-sig"),
                            file_name="lab1_synthese.csv", mime="text/csv")
-        st.caption("Synthèse calculée sur la sélection courante (filtres et seuil de la barre latérale). "
+        st.caption("Synthèse calculée sur les modèles cochés et le seuil de la barre latérale. "
                    "Export de référence (sans filtre, seuils 6, 7 et 8) : `python3 export_synthese.py`.")
 
     # ---------------- 9. Recommandations ----------------
     with tabs[8]:
         import reco
-        st.caption(f"Calculé sur toutes les données chargées, hors filtres, seuil fixe {reco.THRESHOLD:g}/10. "
+        st.caption(f"Calculé sur toutes les données chargées (y compris les modèles décochés), "
+                   f"seuil fixe {reco.THRESHOLD:g}/10. "
                    "Règle : plus petite classe ≥ seuil sans erreur critique ; sinon classe S avec "
                    "contrôle automatique obligatoire (⚠️).")
         rc = reco.build_recommendations(raw)

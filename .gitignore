@@ -1,4 +1,6 @@
-# Sujet du cours (non diffusé)
+# Sujet du cours et livrables (non diffusés)
+cdc/
+Livrables/
 *.docx
 
 # Python
