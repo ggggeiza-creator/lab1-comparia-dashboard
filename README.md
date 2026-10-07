@@ -33,8 +33,6 @@ python3 -m pytest -q
 
 - Aucun modèle ≤ 4B disponible sur compar:IA : classes redéfinies S 15-60B, L 100-400B, XL > 400B (paramètres totaux).
 - Mistral 3 Large remplacé par DeepSeek V4 Pro (substitution aléatoire de la plateforme).
-- Règle stricte sur P4 : balises ```` ```json ```` = texte hors JSON, −1 point de consignes.
-- Tableau de bord Streamlit à la place de `lab1_dashboard.html` (non fourni).
 
 ## Déploiement (Streamlit Community Cloud)
 
